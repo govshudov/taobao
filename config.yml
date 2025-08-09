@@ -1,0 +1,10 @@
+is_debug: true
+listen:
+  type: port
+  port: :8000
+  bind_ip: 0.0.0.0
+swagger:
+  version: 1.0
+  service_name: TaoBao.
+  title: TaoBao
+  host: 127.0.0.1:8000

@@ -1,0 +1,9 @@
+.PHONY: build run test clean
+
+run:
+	@go build -o $(BIN_DIR)/$(APP_NAME) ./cmd/main.go
+
+
+lint:
+	@echo "Running golangci-lint…"
+	golangci-lint run ./...
